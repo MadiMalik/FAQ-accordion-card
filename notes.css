@@ -1,0 +1,28 @@
+
+/* 
+one thing i wanted to sort of cover in here is how to reverse engineer code so let's learn How to reverse-engineer in the Bootstrap accordion
+say you're given this accordion task at work or  whatever you have to do it on your own and you don't know how to build an accordion so what do you do is to find either a tutorial or something or reverse engineer from an example that i think is the good practice so for this accordion i'm going to use the bootstrap accordion
+how it works section so the accordions collapse internally to make it collapsible it looks like they have some classes and javascript*/
+
+/* Accorsion Functionality notes */
+
+
+/* .accordion__question
+  -add class "open" when button is clicked to open remove on close */
+
+
+/* .accordion__collapse */
+/* 3 classes:  */
+
+/* "collapse" -accordion closed */
+     /* -dispaly: none; (if doesn't have "show" class */
+
+/* "collapsing" -opening/closing animation */
+      /* -height of content set via JS on element (online style) */
+      /* -default styles: height 0, overflow: hidden, transition height property */
+
+
+/* "collapse show" -accordion opened
+      - display: block
+*/
+    
